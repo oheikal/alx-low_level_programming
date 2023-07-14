@@ -6,10 +6,9 @@
   */
 int main(void)
 {
-	int alphabet = 97;
-	for (alphabet; alphabet < 123; alphabet++)
+	for (int i = 97; i < 123; i++)
 	{
-		putchar(alphabet);
+		putchar(i);
 		putchar('\n');
 	}
 	return (0);
