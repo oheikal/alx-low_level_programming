@@ -6,10 +6,9 @@
  */
 int main(void)
 { int i = 97;
-	while (i < 122)
+	while (i < 123)
 	{
 		putchar (i);
-		putchar ('\n');
 		i++;
 	}
 	return (0);
