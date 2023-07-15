@@ -9,8 +9,8 @@ int main(void)
 	while (i < 123)
 	{
 		putchar (i);
-		putchar('\n');
 		i++;
 	}
+	putchar ('\n');
 	return (0);
 }
