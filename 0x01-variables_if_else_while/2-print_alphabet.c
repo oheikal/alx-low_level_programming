@@ -1,16 +1,15 @@
 #include <stdio.h>
 /**
-  *main Entry - Point
-  *
-  * Return 0(Success)
-  */
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
-{
-	int i = 97;
-	for (i; i < 123; i++)
+{ int i = 97;
+	while (i < 122)
 	{
-		putchar(i);
-		putchar('\n');
+		putchar (i);
+		putchar ('\n');
 	}
 	return (0);
 }
