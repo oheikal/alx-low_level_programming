@@ -8,14 +8,18 @@
 
 int main(void)
 {
-	int k = 97;
-	int l = 65;
+	int k, l;
+
+	k = 97;
 
 	while (k < 123)
 	{
 		putchar (k);
 		k++;
-	} while (l < 91);
+	}
+	l = 65;
+
+	while (l < 91)
 	{
 		putchar (l);
 		l++;
